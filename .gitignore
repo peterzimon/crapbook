@@ -19,3 +19,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/dist/mac
+/dist/builder-effective-config.yaml
+/dist/latest-mac.yml
+/dist/Crapbook-0.1.0.dmg.blockmap

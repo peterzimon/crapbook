@@ -39,7 +39,6 @@ class App extends Component {
                 // For debugging
                 <h4>{ this.state.text }</h4> 
                 */}
-                <div className="cover">&nbsp;</div>
                 <form className="container">
                     <textarea 
                         ref={(input) => { this.nameInput = input; }}

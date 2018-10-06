@@ -10,22 +10,20 @@ body, html, .root {
     font-size: 16px;
 }
 
+body {
+    -ms-overflow-style: scrollbar;
+    -webkit-app-region:drag;
+}
+
 textarea {
-    margin: 0 auto;
+    margin: 40px auto 0px;
     font-size: 16px;
     border: none;
     outline: none;
     line-height: 1.5em;
-    padding: 60px 80px 80px;
-    width: calc(100vw - 160px);
-    height: calc(100vh - 144px);
+    padding: 20px 40px 40px;
+    width: calc(100vw - 80px);
+    height: calc(100vh - 104px);
     resize: none;
-    /* background: red; */
-}
-
-.cover {
-    background: rgba(255, 255, 255, 0.85);
-    position: absolute;
-    height: 40px;
-    width: calc(100vw - 20px);
+    -webkit-app-region: no-drag;
 }

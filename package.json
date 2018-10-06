@@ -36,12 +36,23 @@
     "main": "public/electron.js",
     "build": {
         "appId": "com.example.electron-cra",
+        "productName": "Crapbook",
         "files": [
             "build/**/*",
-            "node_modules/**/*"
+            "node_modules/**/*",
+            "src/assets/*"
         ],
         "directories": {
             "buildResources": "assets"
+        },
+        "mac": {
+            "icon": "src/assets/crapbook.icns",
+            "target": [
+                {
+                    "target": "dmg",
+                    "arch": ["x64"]
+                }
+            ]
         }
     },
     "homepage": "./"

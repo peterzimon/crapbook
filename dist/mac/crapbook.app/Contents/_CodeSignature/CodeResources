@@ -4,30 +4,57 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/Crapbook.icns</key>
+		<data>
+		Cw7sp06iw6jpcvAb0UIX9sn8sD0=
+		</data>
 		<key>Resources/app-update.yml</key>
 		<data>
 		rAziXOZA/NLiIDbQkigVfYdwrmY=
 		</data>
 		<key>Resources/app.asar</key>
 		<data>
-		WeQJc1j4GBpj/ne+nX3SkkAQLfc=
+		HAj41NoCSN9onfADQ7R//jrBqU4=
 		</data>
 		<key>Resources/electron.asar</key>
 		<data>
 		F+EmHmRCIjl93WlQGjjLNEz/kuQ=
 		</data>
-		<key>Resources/electron.icns</key>
-		<data>
-		yBsjVAviSqArVhNx5Jx3gIgxq5A=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Crapbook Helper EH.app</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			HaaAp+BucNTF3XF3UzTAscmlZgY=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.example.electron-cra.helper.EH" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: peter.zimon@gmail.com (LMWD7QWZ64)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/Crapbook Helper NP.app</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			GTPrTK20jEfTKOKrvZPwxOgAvIc=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.example.electron-cra.helper.NP" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: peter.zimon@gmail.com (LMWD7QWZ64)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/Crapbook Helper.app</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			+5KNb7nQQsh2W5wRpMUkUlHbF8I=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.example.electron-cra.helper" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: peter.zimon@gmail.com (LMWD7QWZ64)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
 		<key>Frameworks/Electron Framework.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			g4MnLMmnh3vyZGGFZSn03mp+TCM=
+			LuRXfxyvHNTDZiN+KTg6sGRclMM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.electron.framework" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: peter.zimon@gmail.com (LMWD7QWZ64)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -54,37 +81,21 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			D16VdELOXcSzKBV/Ij7MMeaUGMU=
+			WZiQOUfVOFn3EeTBHF9cvmAKjpo=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.Squirrel" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: peter.zimon@gmail.com (LMWD7QWZ64)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
-		<key>Frameworks/crapbook Helper EH.app</key>
+		<key>Resources/Crapbook.icns</key>
 		<dict>
-			<key>cdhash</key>
+			<key>hash</key>
 			<data>
-			KitolcQH0QSR/ygG41G1bkmvj0g=
+			Cw7sp06iw6jpcvAb0UIX9sn8sD0=
 			</data>
-			<key>requirement</key>
-			<string>identifier "com.example.electron-cra.helper.EH" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: peter.zimon@gmail.com (LMWD7QWZ64)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
-		</dict>
-		<key>Frameworks/crapbook Helper NP.app</key>
-		<dict>
-			<key>cdhash</key>
+			<key>hash2</key>
 			<data>
-			QouWLZ4XJhHaDelnITPqwQt+NVc=
+			rdahTWSaN6E4W0XrKg0HcxX64G02DQnE6XeFQKejePk=
 			</data>
-			<key>requirement</key>
-			<string>identifier "com.example.electron-cra.helper.NP" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: peter.zimon@gmail.com (LMWD7QWZ64)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
-		</dict>
-		<key>Frameworks/crapbook Helper.app</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			5crCoRy8eELS+cs9lVAFLpxxmLU=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.example.electron-cra.helper" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: peter.zimon@gmail.com (LMWD7QWZ64)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Resources/app-update.yml</key>
 		<dict>
@@ -101,11 +112,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WeQJc1j4GBpj/ne+nX3SkkAQLfc=
+			HAj41NoCSN9onfADQ7R//jrBqU4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xuG9PBFahQLqblCzX50KXiPG0upPxvCBkb3kixBMJYE=
+			AkJM5oTkj+w0pLAjkrYNN6nTrriff/B1iiokk3XCRsA=
 			</data>
 		</dict>
 		<key>Resources/electron.asar</key>
@@ -117,17 +128,6 @@
 			<key>hash2</key>
 			<data>
 			cJU1hETXuWkYXFYBmoR7gZtKgARjIjjeVs2Z2KbIkGw=
-			</data>
-		</dict>
-		<key>Resources/electron.icns</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yBsjVAviSqArVhNx5Jx3gIgxq5A=
-			</data>
-			<key>hash2</key>
-			<data>
-			Wpp41UwVf1VnKv6jcDdGSFiof9XydvyCBnh/Nm7WhM8=
 			</data>
 		</dict>
 	</dict>

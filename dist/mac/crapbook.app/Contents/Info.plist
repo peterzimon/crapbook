@@ -5,17 +5,17 @@
     <key>BuildMachineOSBuild</key>
     <string>16G1510</string>
     <key>CFBundleDisplayName</key>
-    <string>crapbook</string>
+    <string>Crapbook</string>
     <key>CFBundleExecutable</key>
-    <string>crapbook</string>
+    <string>Crapbook</string>
     <key>CFBundleIconFile</key>
-    <string>electron.icns</string>
+    <string>Crapbook.icns</string>
     <key>CFBundleIdentifier</key>
     <string>com.example.electron-cra</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>crapbook</string>
+    <string>Crapbook</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
@@ -45,6 +45,6 @@
     <key>NSHumanReadableCopyright</key>
     <string>Copyright © 2018 Peter Zimon</string>
     <key>AsarIntegrity</key>
-    <string>{"checksums":{"app.asar":"Nmw3sB8r2EHSl0vdIBRJGZwRt8AchAoh0AGPPG0wv3Ur8/TRZhyA6Kj0/6ZgH7mGeA9gg1OzKdqBzQD/LRP29g==","electron.asar":"Ip/GqLJNwH9HdV4FO24ZDjAtVqEQy9hwEtIJ6eYRRqBG8I9UBqBXVCtCrkiLk/smh6650/gIEW0ly2jvqchncA=="}}</string>
+    <string>{"checksums":{"app.asar":"5YpzEJeZjV452ijy0ehtPLuJfRV4uohGoxIbiTLl7AR6A0jHxlAKfjqGDDTn+ZYQcrg0i5+k77YMtZ8RpRXGBA==","electron.asar":"Ip/GqLJNwH9HdV4FO24ZDjAtVqEQy9hwEtIJ6eYRRqBG8I9UBqBXVCtCrkiLk/smh6650/gIEW0ly2jvqchncA=="}}</string>
   </dict>
 </plist>

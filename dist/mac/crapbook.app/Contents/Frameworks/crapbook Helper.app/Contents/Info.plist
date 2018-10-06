@@ -23,9 +23,9 @@
     <key>NSSupportsAutomaticGraphicsSwitching</key>
     <true/>
     <key>CFBundleExecutable</key>
-    <string>crapbook Helper</string>
+    <string>Crapbook Helper</string>
     <key>CFBundleDisplayName</key>
-    <string>crapbook Helper</string>
+    <string>Crapbook Helper</string>
     <key>CFBundleVersion</key>
     <string>0.1.0</string>
   </dict>

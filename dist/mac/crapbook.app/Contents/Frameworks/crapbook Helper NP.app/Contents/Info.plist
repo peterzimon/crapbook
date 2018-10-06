@@ -5,9 +5,9 @@
     <key>BuildMachineOSBuild</key>
     <string>16G1510</string>
     <key>CFBundleDisplayName</key>
-    <string>crapbook Helper NP</string>
+    <string>Crapbook Helper NP</string>
     <key>CFBundleExecutable</key>
-    <string>crapbook Helper NP</string>
+    <string>Crapbook Helper NP</string>
     <key>CFBundleIdentifier</key>
     <string>com.example.electron-cra.helper.NP</string>
     <key>CFBundleName</key>

@@ -4,8 +4,16 @@ directories:
 files:
   - build/**/*
   - node_modules/**/*
+  - src/assets/*
 extraMetadata:
   main: build/electron.js
 appId: com.example.electron-cra
+productName: Crapbook
+mac:
+  icon: src/assets/crapbook.icns
+  target:
+    - target: dmg
+      arch:
+        - x64
 extends: react-cra
 electronVersion: 3.0.2

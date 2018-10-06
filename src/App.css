@@ -11,16 +11,21 @@ body, html, .root {
 }
 
 textarea {
-    position: absolute;
-    width: 100%;
-    height: 100vw;
-    padding: 20px;
+    margin: 0 auto;
     font-size: 16px;
     border: none;
     outline: none;
     line-height: 1.5em;
+    padding: 60px 80px 80px;
+    width: calc(100vw - 160px);
+    height: calc(100vh - 144px);
+    resize: none;
+    /* background: red; */
 }
 
-.container {
-    min-height: 100%;
+.cover {
+    background: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    height: 40px;
+    width: calc(100vw - 20px);
 }

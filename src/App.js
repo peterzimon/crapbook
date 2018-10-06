@@ -1,28 +1,54 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+    constructor(props) {
+        super(props);
+        this.state = { 
+            text: localStorage.getItem(`savedText`)
+        };
+
+        this.changeText = this.changeText.bind(this)
+        this.saveToLocal = this.saveToLocal.bind(this)
+    }
+
+    changeText(e) {
+        this.setState({
+            text: e.target.value
+        })
+        this.saveToLocal()
+    }
+
+    saveToLocal() {
+        const text = this.state.text;
+        localStorage.setItem(`savedText`, text);
+    }
+
+    componentDidMount() {
+        this.nameInput.focus()
+    }
+
+    componentWillUnmount() {
+        this.saveToLocal()
+    }
+
+    render() {
+        return (
+            <>
+                {/* 
+                // For debugging
+                <h4>{ this.state.text }</h4> 
+                */}
+                <form className="container">
+                    <textarea 
+                        ref={(input) => { this.nameInput = input; }}
+                        onChange={ this.changeText } 
+                        onKeyDown={ this.changeText } 
+                        value={ this.state.text } />
+                </form>
+            </>
+        );
+    }
 }
 
 export default App;

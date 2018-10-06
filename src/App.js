@@ -34,19 +34,15 @@ class App extends Component {
 
     render() {
         return (
-            <>
-                {/* 
-                // For debugging
-                <h4>{ this.state.text }</h4> 
-                */}
-                <form className="container">
+            <div className="container">
+                <form>
                     <textarea 
                         ref={(input) => { this.nameInput = input; }}
                         onChange={ this.changeText } 
                         onKeyDown={ this.changeText } 
                         value={ this.state.text } />
                 </form>
-            </>
+            </div>
         );
     }
 }

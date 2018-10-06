@@ -13,17 +13,40 @@ body, html, .root {
 body {
     -ms-overflow-style: scrollbar;
     -webkit-app-region:drag;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    font-size: 14.5px;
+    color: #2B3034;
+    font-weight: 500;
 }
 
 textarea {
-    margin: 40px auto 0px;
+    margin: 40px auto;
     font-size: 16px;
     border: none;
     outline: none;
     line-height: 1.5em;
-    padding: 20px 40px 40px;
-    width: calc(100vw - 80px);
+    padding: 00px 25vw 60px;
+    width: calc(100vw - 50vw);
     height: calc(100vh - 104px);
     resize: none;
     -webkit-app-region: no-drag;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.1px;
+    color: #2B3034;
+}
+
+@media (max-width: 1000px) {
+    textarea {
+        padding: 0px 8vw 60px;
+        width: calc(100vw - 16vw);
+    }
 }

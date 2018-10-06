@@ -2,7 +2,7 @@
 
 A textarea where you can write anything and it will remember it when you open it again. 
 
-[Download](https://github.com/peterzimon/crapbook/raw/master/dist/Crapbook-0.1.0.dmg)
+[Download](https://github.com/peterzimon/crapbook/raw/master/dist/)
 
 #### Credits
 

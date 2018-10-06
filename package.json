@@ -1,6 +1,7 @@
 {
-    "name": "app-tut-02",
+    "name": "crapbook",
     "version": "0.1.0",
+    "author": "Peter Zimon",
     "private": true,
     "dependencies": {
         "electron-is-dev": "^1.0.1",
@@ -13,7 +14,9 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\""
+        "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+        "electron-pack": "build -c.extraMetadata.main=build/electron.js",
+        "preelectron-pack": "yarn build"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -40,5 +43,6 @@
         "directories": {
             "buildResources": "assets"
         }
-    }
+    },
+    "homepage": "./"
 }

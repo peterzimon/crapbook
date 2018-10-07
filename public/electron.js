@@ -12,6 +12,8 @@ function createWindow() {
     mainWindow = new BrowserWindow({ width: 520, height: 660, titleBarStyle: 'hiddenInset' });
     mainWindow.loadURL(isDev ? 'http://localhost:3000' : `file://${path.join(__dirname, '../build/index.html')}`);
     mainWindow.on('closed', () => mainWindow = null);
+
+    require('../src/menu/mainmenu');
 }
 
 app.on('ready', createWindow);

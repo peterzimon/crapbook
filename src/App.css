@@ -28,20 +28,24 @@ header {
 }
 
 textarea {
-    margin: 40px auto;
     font-size: 16px;
     border: none;
     outline: none;
     line-height: 1.5em;
-    padding: 00px 25vw 60px;
+    padding: 0px 25vw 60px;
     width: calc(100vw - 50vw);
-    height: calc(100vh - 104px);
+    height: calc(100vh - 103px);
     resize: none;
     -webkit-app-region: no-drag;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     letter-spacing: 0.1px;
     color: #2B3034;
+    background: white;
+}
+
+.container {
+    padding-top: 40px;
 }
 
 @media (max-width: 1000px) {
